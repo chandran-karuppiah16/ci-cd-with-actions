@@ -7,7 +7,7 @@ on:
   push:
     branches: 
       - main
-      - releases
+      - releases\*
   pull_request:
     branches:
       - main
