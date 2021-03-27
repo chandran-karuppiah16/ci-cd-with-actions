@@ -36,6 +36,7 @@ jobs:
           
   deploy-prod:
     name: Deploy to prod environment
+    needs: [deploy-dev-test]
     runs-on: ubuntu-latest
     environment: 
       name: Production
